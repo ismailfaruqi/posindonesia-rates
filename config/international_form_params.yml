@@ -1,0 +1,9 @@
+# Required parameters
+from: o
+to: d
+weight: b
+
+# Dimensions, optional
+height: h
+width: w
+length: l

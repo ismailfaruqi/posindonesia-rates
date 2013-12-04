@@ -1,9 +1,5 @@
-require 'net/http'
-
-
 module PosIndonesia
 	
-	POS_INDONESIA_INTERNATIONAL_RATES_URL = 'http://ems.posindonesia.co.id/ratepiol.php'
 	POS_INDONESIA_DOMESTIC_RATES_URL = 'http://www.posindonesia.co.id/add-ons/lacak-kiriman/libs/tarifdn.php'
 
 	class Rate
@@ -22,5 +18,7 @@ module PosIndonesia
 
 			end
 		end
+
+		
 	end
 end

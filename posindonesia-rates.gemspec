@@ -6,6 +6,10 @@ Gem::Specification.new do |s|
 	s.description	= 'A Ruby implementation to get shipping rates from Pos Indonesia'
 	s.authors		= ['Ismail Faruqi']
 	s.email			= 'ismailfaruqi@gmail.com'
-	s.files			= ['lib/posindonesia-rates.rb']
+	s.files         = Dir["{lib}/**/*.rb", "LICENSE", "*.md"]
 	s.license		= 'MIT'
+
+	# Dependencies
+	s.add_dependency "nokogiri"
+	
 end
