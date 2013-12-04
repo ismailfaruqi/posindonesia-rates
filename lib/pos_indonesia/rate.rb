@@ -9,7 +9,8 @@ module PosIndonesia
 	class Rate
 		attr_accessor :from, :to, :package
 
-		def initialize(args)
+		def initialize(package, args)
+			@package = package
 			args.each{ |k,v| send("#{k}=", v) } 
 		end
 
